@@ -2,52 +2,36 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .container {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 80%;
-    max-width: 900px;
-    margin: 0 auto;
-  }
-  
-  h1 {
-    font-size: 2rem;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f8ff;
     color: #333;
+    text-align: center;
+    padding: 40px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #ff6347;
+    font-size: 3rem;
     margin-bottom: 20px;
-  }
-  
-  .superhero-list {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    padding: 0;
-  }
-  
-  .superhero-item {
-    text-align: center;
-    max-width: 200px;
-  }
-  
-  .superhero-img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 10px;
-  }
-  
-  h2 {
+}
+
+p {
     font-size: 1.2rem;
-    color: #333;
-  }
-  
+    color: #4682b4;
+    line-height: 1.6;
+    font-weight: 300;
+}
+
+a {
+    color: #20b2aa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
