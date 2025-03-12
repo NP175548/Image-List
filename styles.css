@@ -37,6 +37,7 @@ p {
 .superhero-list {
     list-style: none;
     padding: 0;
+    display: block; 
 }
 
 .superhero-item {
@@ -70,7 +71,6 @@ h2 {
     color: #1e3a8a;
 }
 
-/* Mobile CSS */
 @media (max-width: 768px) {
     body {
         padding: 20px;
@@ -85,17 +85,17 @@ h2 {
     }
 
     .container {
-        max-width: 90%;  
+        max-width: 90%;
         padding: 20px;
     }
 
     .superhero-item {
-        width: 150px;  
+        width: 150px;
         margin: 10px;
     }
 
     .superhero-img {
-        width: 80px;  
+        width: 80px;
         height: 80px;
     }
 
@@ -110,11 +110,11 @@ h2 {
     }
 
     .superhero-item {
-        width: 120px; 
+        width: 120px;
     }
 
     .superhero-img {
-        width: 70px;  
+        width: 70px;
         height: 70px;
     }
 
